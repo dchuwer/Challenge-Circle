@@ -1,0 +1,30 @@
+  @media (max-width: 320px)
+  {
+      .circle {padding: 50%;}
+  }
+  
+  @media (min-width: 321px) and (max-width: 800px)
+  {
+      .circle {padding: 20%;}
+  }
+  
+  @media (min-width: 801px)
+  {
+      
+      .circle {padding: 11.5%;}
+  }
+  
+  .circle {
+
+    
+    float: left;
+    width:auto;
+    height:auto;
+    position: relative;
+    border-radius:50%;
+    background:rgb(6, 223, 17);
+    margin: 3px;
+    
+}
+
+
